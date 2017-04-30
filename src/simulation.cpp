@@ -54,3 +54,11 @@ pysumo_simulation_minexpectednumber(PyObject *self, PyObject *args)
 	return Py_BuildValue("i",libsumo_simulation_minexpectednumber());
 	PYSUMO_EXCEPTION_END
 }
+
+PyObject *
+pysumo_simulation_tripstatistics(PyObject *self, PyObject *args)
+{
+	PYSUMO_EXCEPTION_START
+	return Py_BuildValue("s",libsumo_simulation_tripstatistics().c_str());
+	PYSUMO_EXCEPTION_END
+}

@@ -20,6 +20,8 @@ pysumo_simulation_step(PyObject *self, PyObject *args);
 PyObject *
 pysumo_simulation_minexpectednumber(PyObject *self, PyObject *args);
 PyObject *
+pysumo_simulation_tripstatistics(PyObject *self, PyObject *args);
+PyObject *
 pysumo_tls_getstate(PyObject *self, PyObject *args);
 PyObject *
 pysumo_tls_setstate(PyObject *self, PyObject *args);

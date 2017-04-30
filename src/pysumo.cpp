@@ -5,6 +5,7 @@ static PyMethodDef PysumoMethods[] = {
 {"simulation_stop",  pysumo_simulation_stop, METH_VARARGS, "Stop SUMO"},
 {"simulation_step",  pysumo_simulation_step, METH_VARARGS, "Simulate one step"},
 {"simulation_minexpectednumber",  pysumo_simulation_minexpectednumber, METH_VARARGS, "Get minmum expected number of vechicles"},
+{"simulation_tripstatistics",  pysumo_simulation_tripstatistics, METH_VARARGS, "Get statistics of vehicles trips"},
 {"inductionloop_meanspeed",  pysumo_inductionloop_meanspeed, METH_VARARGS, "Get induction loop mean speed"},
 {"inductionloop_vehiclenumber",  pysumo_inductionloop_vehiclenumber, METH_VARARGS, "Get induction loop vehicle count"},
 {"meme_meanspeed",  pysumo_meme_meanspeed, METH_VARARGS, "Get multientry/multiexit mean speed"},
